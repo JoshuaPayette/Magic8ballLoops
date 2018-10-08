@@ -11,70 +11,38 @@ public class Magic8ballLoops {
 
 
         while(!board.nextLine().equals("no")){
-            int randomNumber = generator.nextInt(20) + 1;
+            int randomNumber = generator.nextInt(10) + 1;
             if (randomNumber == 1) {
-                System.out.println("It is certain.");
+                System.out.println("I could see that happening");
             }
             if (randomNumber == 2) {
                 System.out.println("Not good, not good at all");
             }
             if (randomNumber == 3) {
-                System.out.println("Without a doubt.");
+                System.out.println("Not anytime soon.");
             }
             if (randomNumber == 4) {
-                System.out.println("Yes, definitely.");
+                System.out.println("It's looking promising");
             }
             if (randomNumber == 5) {
-                System.out.println("You may rely on it.");
+                System.out.println("N-0 which spells NO");
             }
             if (randomNumber == 6) {
-                System.out.println("As I see it, yes.");
+                System.out.println("Results say yes");
             }
             if (randomNumber == 7) {
-                System.out.println("Most likely.");
+                System.out.println("It's looking in your favor");
             }
             if (randomNumber == 8) {
-                System.out.println("The outlook is good");
+                System.out.println("You're usually lucky but not today! You are going down a slippery slope friend");
             }
             if (randomNumber == 9) {
-                System.out.println("Yes.");
+                System.out.println("Indeed it will");
             }
             if (randomNumber == 10) {
-                System.out.println("Signs point to yes.");
-            }
-            if (randomNumber == 11) {
-                System.out.println("Reply hazy.");
-            }
-            if (randomNumber == 12) {
-                System.out.println("Ask again later.");
-            }
-            if (randomNumber == 13) {
-                System.out.println("Better not tell you now.");
-            }
-
-            if (randomNumber == 14) {
-                System.out.println("Cannot predict now.");
-            }
-
-            if (randomNumber == 15) {
-                System.out.println("Concentrate and ask again.");
-            }
-            if (randomNumber == 16) {
-                System.out.println("Don't count on it.");
-            }
-            if (randomNumber == 17) {
-                System.out.println("My reply is no.");
-            }
-            if (randomNumber == 18) {
-                System.out.println("My sources say no.");
-            }
-            if (randomNumber == 19) {
-                System.out.println("Outlook does not look so good.");
-            }
-            if (randomNumber == 20) {
-                System.out.println("Very doubtful.");
+                System.out.println("I checked in the back but couldn't see that happening. Ever");
             }
             System.out.println("If you want to ask another question go ahead if not type (no)");
         }
-        System.out.println("hahaha thank you for playing this mystical game I hope you liked the answer....");
+        System.out.println("HaHaHa thank you for playing this mystical game I hope you liked the answer....");
     }}
